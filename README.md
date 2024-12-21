@@ -23,6 +23,17 @@ Considere as funções e objetivos principais de um sistema operacional conforme
 
 **Copilot informa**: Essa questão incentiva os alunos a explorarem os conceitos fundamentais e a aplicarem o conhecimento teórico em situações práticas. Se precisar de mais alguma coisa, estou aqui para ajudar!
 
+# Questão 1 - Resposta
+O sistema operacional é como o "chefe" do computador: ele organiza tudo para que os programas e o hardware funcionem bem juntos.
+
+- Gerenciamento de Processos: Imagine que você está usando vários programas ao mesmo tempo, como o navegador, um editor de texto e uma música no Spotify. O sistema operacional coordena esses processos, garantindo que todos tenham sua vez de usar o processador sem conflitos. Ele faz isso com um "escalonador", que organiza a fila de execução.
+
+- Gerenciamento de Memória: Já percebeu que, mesmo com muitos programas abertos, eles não se "atrapalham"? Isso acontece porque o SO reserva um espaço específico de memória para cada programa e cuida para que eles não invadam o espaço dos outros.
+
+- Gerenciamento de Dispositivos de Entrada e Saída: Pense nos seus dispositivos, como teclado, mouse e impressora. O SO faz a ponte entre eles e os programas, garantindo que todos funcionem de forma sincronizada. Exemplo: enquanto você digita em um editor de texto, o SO coordena o teclado e a tela para exibir as letras corretamente.
+
+- Gerenciamento de Arquivos: Quando você salva um documento, o sistema operacional organiza esses dados no disco e protege para que ninguém o acesse sem permissão (se você configurar isso). Ele também te ajuda a encontrar arquivos rapidamente, como em uma pesquisa no Explorador de Arquivos.
+
 # Questão 2. Estrutura de sistemas operacionais
 
 ## Texto informativo
@@ -70,6 +81,18 @@ Com base no texto sobre a estrutura de sistemas operacionais, analise como as di
 
 **Copilot informa**: Essa questão incentiva os alunos a considerarem tanto os aspectos econômicos quanto os de segurança ao avaliar diferentes arquiteturas de sistemas operacionais.
 
+# Questão 2 - Resposta
+Sistemas operacionais podem ser construídos de maneiras diferentes, e isso afeta tanto os custos quanto a segurança. 
+
+Arquitetura Monolítica:
+Imagine uma caixa cheia de peças misturadas, todas funcionando juntas. Essa é a ideia por trás de sistemas monolíticos, como o UNIX. É mais rápido e barato de construir, mas, se uma peça der problema, o sistema inteiro pode ser afetado. Além disso, consertar qualquer coisa pode ser trabalhoso porque tudo está interligado.
+
+Arquitetura Microkernel:
+Agora imagine que cada peça está em uma caixinha separada. Essa é a ideia do microkernel, usado em sistemas como o Minix. É mais seguro, porque, se uma caixinha quebrar, as outras continuam funcionando. No entanto, fazer tudo modular assim dá mais trabalho e custa mais no início.
+
+Arquitetura em Camadas:
+Aqui, as peças são organizadas em níveis, como andares de um prédio, com cada andar cuidando de algo específico. Isso facilita a manutenção, pois dá para mexer em um andar sem atrapalhar os outros. Por outro lado, essa organização exige mais planejamento e aumenta a complexidade inicial.
+
 # Questão 3. Introdução à Segurança de Sistemas Operacionais
 
 ## Texto informativo
@@ -98,6 +121,14 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Copilot informa**: Essa questão incentiva os alunos a refletirem sobre o equilíbrio entre segurança, performance e usabilidade, aplicando conceitos teóricos a contextos práticos.
 
+# Questão 3 - Resposta
+Segurança é um dos pilares de um bom sistema operacional. Dois mecanismos super importantes para isso são o controle de acesso e a criptografia
+
+Controle de Acesso:
+É como uma portaria de prédio: só entra quem tem autorização. O sistema verifica quem você é (autenticação) e o que você pode fazer (autorização). Exemplo: quando você coloca a senha para desbloquear seu notebook, está passando por um controle de acesso. O problema é que, se o sistema for muito rigoroso, pode complicar a vida do usuário, pedindo confirmações o tempo todo.
+
+Criptografia:
+Um exemplo são os "dados criptografados" que é como colocar suas informações em um cofre, só quem tem a chave pode acessar. Isso protege suas mensagens e arquivos de olhos curiosos. Exemplo: ao fazer uma compra online, a criptografia garante que seus dados do cartão fiquem seguros. O desafio aqui é que ela pode deixar o sistema mais lento, especialmente em máquinas menos potentes.
 
 # Questão 4. Custo de Processamento versus Algoritmo Ótimo de Escalonamento
 
@@ -129,6 +160,17 @@ Considerando os conceitos de custo de processamento e algoritmo ótimo de escalo
 
 **Copilot informa**: Essa questão incentiva os alunos a refletirem sobre a complexidade e os trade-offs envolvidos na escolha de um algoritmo de escalonamento, aplicando conceitos teóricos a contextos práticos.
 
+# Questão 4 - Respostas
+Imagine que você está organizando uma fila de pessoas para usar um único caixa eletrônico. Essa fila é como os processos no computador, e o "algoritmo de escalonamento" é o método usado para decidir quem será atendido primeiro. Aqui vão dois exemplos:
+
+First-Come, First-Served (FCFS):
+Esse é simples: quem chega primeiro, é atendido primeiro. É fácil de implementar, mas pode ser injusto. Imagine que alguém na frente da fila demora muito; todos atrás terão que esperar, mesmo que suas tarefas sejam rápidas.
+
+Round Robin (RR):
+Aqui, todos têm uma chance de usar o caixa por um tempo limitado, e depois vão para o fim da fila. É justo, mas tem um custo extra de reorganizar a fila o tempo todo, o que pode atrasar o processo.
+
+Cada algoritmo tem suas vantagens e desvantagens, e a escolha se baseia em: justiça, eficiência ou simplicidade. Por exemplo, em jogos online, é essencial garantir respostas rápidas (tempo real), então um algoritmo diferente seria escolhido.
+
 # Questão 5. Aplicativo em python vs aplicativos em c
 
 ## Questão
@@ -142,3 +184,14 @@ Explique o caminho que as instruções seguem desde um aplicativo escrito em Pyt
 **Dica:** Compare e contraste os dois processos, destacando as principais diferenças e semelhanças na forma como as instruções são processadas e executadas.
 
 **Copilot informa**: Essa questão incentiva os alunos a refletirem sobre os diferentes caminhos que as instruções seguem em linguagens interpretadas e compiladas, aplicando conceitos teóricos a contextos práticos.
+
+# Questão 5 - Respostas
+As linguagens Python e C seguem caminhos diferentes.
+
+Python:
+O código é interpretado "ao vivo" pelo interpretador Python. Ele pega as instruções do seu programa e as traduz para algo que o computador entende, mas faz isso enquanto o programa está rodando. Por isso, é mais fácil escrever e corrigir, mas pode ser mais lento.
+
+C:
+O código é transformado (compilado) em um arquivo executável antes de ser usado. Esse arquivo já está no "idioma" do computador, então ele roda de forma muito mais eficiente. Por outro lado, fazer mudanças no programa exige recompilar tudo.
+
+Ambas as linguagens interagem com o sistema operacional e, no fim, tudo vira binário (0s e 1s) para o hardware executar. Python é ótimo para protótipos e scripts rápidos, enquanto C brilha em sistemas onde cada milissegundo conta, como dispositivos embarcados.
